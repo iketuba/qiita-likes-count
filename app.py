@@ -5,6 +5,8 @@ import lgbm
 
 def main():
 
+    st.title("Qiitaいいね数予測アプリ")
+
     title = st.text_input(label="記事のタイトルを入力して下さい")
     body = st.text_area(label="記事の本文を入力して下さい", height=500)
     tags = st.text_input(label="タグをカンマ区切りで入力して下さい")
